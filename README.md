@@ -1,14 +1,14 @@
-### Credit_Card_Financial_Dashboard
-##Power BI Dashboard
+<h1> Credit_Card_Financial_Dashboard </h1>
+<h2>Power BI Dashboard</h2>
 
-#📁 Project Overview
+<h3>📁 Project Overview</h3>
 This project builds a weekly credit card financial dashboard using Power BI, leveraging SQL data as the source.
 It delivers clear insights into key performance metrics, customer behavior, revenue drivers, and weekly trends, enabling business stakeholders to monitor operations and make strategic decisions effectively.
 
-#🎯 Project Objective
+<h3>🎯 Project Objective</h3>
 To develop a comprehensive credit card weekly dashboard that provides real-time analytics on customer segments, spending behavior, revenue patterns, risk indicators, and performance health.
 
-##Dashboard----
+<h2>Dashboard----</h2>
 1. Credit Card Customer Report
 <img width="1575" height="904" alt="image" src="https://github.com/user-attachments/assets/b6fba942-95af-4e78-89e9-4f3280e3fd4a" />
 
@@ -16,7 +16,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 <img width="1602" height="920" alt="image" src="https://github.com/user-attachments/assets/96052c03-7837-428a-b1f9-68d65d015ffc" />
 
 
-#📂 Data Source & Background
+<h3>📂 Data Source & Background</h3>
 Data was extracted from a SQL database, containing:
 
 ✔️ cc_detail (Credit Card Ops & Transactions)
@@ -25,7 +25,7 @@ Data was extracted from a SQL database, containing:
 
 The complete SQL script used for database setup and data import is given below ⬇️
 
-#🧾 SQL Queries Used
+<h3>🧾 SQL Queries Used</h3>
 
 -- Create a database 
 CREATE DATABASE ccdb;
@@ -94,7 +94,7 @@ FROM 'D:\Credit Card Data\cust_add.csv'
 DELIMITER ','
 CSV HEADER;
 
-#🔧 Data Processing & Modelling Workflow
+<h3>🔧 Data Processing & Modelling Workflow</h3>
 ✔️ Data Loading & Cleaning
 
 Imported raw transactional and customer level data
@@ -111,7 +111,7 @@ Established Star Schema model for reporting
 
 Created calculated columns for segmentation
 
-#🧠 DAX Measures & Calculated Fields
+<h3>🧠 DAX Measures & Calculated Fields</h3>
 🔹 Age Group Segmentation
 AgeGroup = SWITCH(
     TRUE(),
@@ -159,10 +159,10 @@ Previous_week_Revenue = CALCULATE(
     )
 )
 
-# Insights 
+<h3>Insights</h3> 
 <img width="1895" height="1022" alt="image" src="https://github.com/user-attachments/assets/6384e4e3-20e4-433a-b688-61f8d602d46d" />
 
-#🏗️ Tech Stack Used
+<h3>🏗️ Tech Stack Used</h3>
 | Layer            | Tools              |
 | ---------------- | ------------------ |
 | Database         | SQL Server         |
